@@ -1,3 +1,4 @@
 FROM alphine
 RUN ap-get install git
-User testuser
+RUN apt-get install java
+USER testuser
